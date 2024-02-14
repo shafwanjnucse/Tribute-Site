@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+}
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.top_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  align-items: flex-end;
+}
+.top_section h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+  text-align: end;
+  text-transform: uppercase;
+}
+.top_section h4 {
+  font-size: 25px;
+  color: black;
+  text-align: end;
+}
+.image_container,
+img {
+  width: 320px;
+  height: 290px;
+}
+.image_container img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.about_section {
+  margin-top: 120px;
+}
+.about_section h2 {
+  font-size: 55px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about_section p {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+}
+.life-section {
+  position: relative;
+  text-align: center;
+  margin-top: 90px;
+}
+.life-section h2 {
+  margin-bottom: 30px;
+  font-size: 55px;
+  font-weight: 400;
+}
+.life-section .b1 {
+  display: flex;
+  justify-content: center;
+}
+.life-section .b1 img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+.life-section p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.death-section {
+  position: relative;
+  text-align: center;
+  margin-top: 90px;
+}
+.death-section h2 {
+  margin-bottom: 30px;
+  font-size: 55px;
+  font-weight: 400;
+}
+.death-section .b2 {
+  display: flex;
+  justify-content: center;
+}
+.death-section .b2 img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.death-section p {
+  font-size: 18px;
+  line-height: 30px;
+}
+footer {
+  margin: 50px 0;
+}
+footer p {
+  text-align: end;
+}
